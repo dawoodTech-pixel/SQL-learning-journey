@@ -1,0 +1,13 @@
+-- 1. Database Creation & Drop Syntax
+CREATE DATABASE IF NOT EXISTS CollegeDB;
+USE CollegeDB;
+-- DROP DATABASE IF EXISTS OldDB;
+
+-- 2. Table Creation with Data Types
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    gender CHAR(1),
+    gpa FLOAT,
+    enrollment_date DATE
+);
